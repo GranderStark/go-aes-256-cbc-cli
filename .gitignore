@@ -1,0 +1,10 @@
+.vscode
+*.exe
+debug
+vendor
+.DS_Store
+config.yml
+credentials.json
+.idea
+.env
+*.log
