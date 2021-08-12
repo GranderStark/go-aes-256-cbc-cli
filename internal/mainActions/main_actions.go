@@ -1,9 +1,9 @@
 package mainActions
 
 import (
-	"github.com/GranderStark/go-aes-256-cbc-cli/internal/decrypt"
-	"github.com/GranderStark/go-aes-256-cbc-cli/internal/encrypt"
 	"github.com/GranderStark/go-aes-256-cbc-cli/internal/utils"
+	"github.com/GranderStark/go-aes-256-cbc-cli/shared/decrypt"
+	"github.com/GranderStark/go-aes-256-cbc-cli/shared/encrypt"
 )
 
 func RunEncrypt(cipherKey string, fromStdin string, toStdout bool, fromFile string, toFile string) (string, error) {
